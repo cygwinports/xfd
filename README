@@ -1,27 +1,29 @@
 xfd
 ------------------------------------------
-Xorg font character display utility
+X.Org font character display utility
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  libX11_6-1.0.0-2
-  libXaw8-1.0.1-1
-  libXft2-2.1.8.2-1
+  cygwin-1.5.25-15
+  libfontconfig1-2.6.0-1
+  libX11_6-1.1.5-1
+  libXaw7-1.0.4-2
+  libXft2-2.1.13-1
+  libXmu6-1.0.4-1
+  libXrender1-0.9.4-1
+  libXt6-1.0.5-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.20-1
-  autoconf2.5-2.59-2
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.2-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  libtool1.5-1.5.22-1
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
-  xorg-util-macros-1.0.2-1
+  autoconf2.5-2.63-1
+  automake1.9-1.9.6-2
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+  xorg-util-macros-1.1.6-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -48,7 +50,6 @@ Files included in the binary package:
 
   /etc/X11/app-defaults/Xfd
   /usr/bin/xfd.exe
-  /usr/share/doc/Cygwin/xfd-1.0.1.README
   /usr/share/doc/xfd-1.0.1/COPYING
   /usr/share/doc/xfd-1.0.1/ChangeLog
   /usr/share/man/man1/xfd.1.gz
@@ -56,6 +57,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0.1-2 -----
+Rebuilt.
 
 ----- version 1.0.1-1 -----
 Initial Cygwin release of modular X11R7.0.

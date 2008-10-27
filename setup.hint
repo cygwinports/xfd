@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin libX11_6 libXaw8 libXft2
-sdesc: "Xorg font character display utility"
-ldesc: "Xorg font character display utility"
+requires: cygwin libfontconfig1 libX11_6 libXaw7 libXft2 libXmu6 libXrender1 libXt6
+sdesc: "X.Org font character display utility"
+ldesc: "X.Org font character display utility"
